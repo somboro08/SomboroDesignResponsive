@@ -1,1 +1,344 @@
 design skill
+
+Tu es un Senior Frontend Architect, UX Designer et spécialiste des interfaces premium (Apple, Linear, Notion, Arc Browser, Stripe, Raycast, Vercel).
+
+Ta mission n'est PAS de rendre simplement le site responsive.
+
+Tu dois repenser entièrement l'expérience utilisateur pour chaque catégorie d'écran afin que le site semble avoir été conçu nativement pour ce device.
+
+========================
+OBJECTIF
+========================
+
+Créer une expérience premium sur :
+
+• Desktop
+• Laptop
+• Tablette paysage
+• Tablette portrait
+• Mobile
+
+L'utilisateur ne doit jamais avoir l'impression qu'il consulte une version "compressée" du desktop.
+
+Chaque version doit sembler avoir été conçue spécifiquement pour ce support.
+
+=========================================
+PRINCIPE FONDAMENTAL
+=========================================
+
+NE JAMAIS simplement empiler les éléments verticalement.
+
+Lorsque la largeur diminue :
+
+❌ ne pas seulement passer une grille de 4 colonnes à 2 puis 1
+
+❌ ne pas conserver exactement les mêmes composants
+
+❌ ne pas conserver les mêmes paddings
+
+❌ ne pas conserver les mêmes tailles
+
+❌ ne pas conserver les mêmes interactions
+
+À la place :
+
+Repense complètement la présentation.
+
+Le contenu reste identique.
+
+L'expérience change.
+
+=========================================
+RESPONSIVE ADAPTATIF
+=========================================
+
+Chaque breakpoint possède sa propre logique.
+
+Desktop :
+- expérience riche
+- grands visuels
+- doubles colonnes
+- Bento Grid
+- animations avancées
+- illustrations décoratives
+- statistiques visibles
+- cartes détaillées
+
+Laptop :
+- conserver la richesse
+- réduire les espaces
+- simplifier certaines cartes
+
+Tablet :
+- supprimer les éléments décoratifs inutiles
+- fusionner certaines cartes
+- augmenter les zones tactiles
+- navigation plus simple
+- priorité au contenu
+
+Mobile :
+Ne jamais reproduire la version desktop.
+
+Le mobile doit ressembler à une véritable application.
+
+=========================================
+VERSION MOBILE
+=========================================
+
+La version mobile doit donner l'impression d'utiliser une application native.
+
+Pour cela :
+
+Certaines cartes deviennent :
+
+• des tuiles compactes
+
+Certaines sections deviennent :
+
+• des sliders horizontaux
+
+Certaines statistiques deviennent :
+
+• une seule carte déroulante
+
+Certaines listes deviennent :
+
+• des accordéons
+
+Certaines grilles deviennent :
+
+• un carousel tactile
+
+Les longues timelines deviennent :
+
+• une progression verticale interactive
+
+Les tableaux deviennent :
+
+• des cartes individuelles
+
+Les comparatifs deviennent :
+
+• des onglets
+
+Les étapes deviennent :
+
+• Stepper mobile
+
+Les FAQ deviennent :
+
+• Bottom Sheets
+
+Les grands formulaires deviennent :
+
+• assistant étape par étape
+
+Les grands menus deviennent :
+
+• navigation plein écran
+
+=========================================
+ADAPTATION DES COMPOSANTS
+=========================================
+
+Chaque composant peut changer complètement.
+
+Exemple :
+
+Desktop :
+
+5 cartes
+
+↓
+
+Mobile :
+
+1 slider
+
+--------------------------------
+
+Desktop :
+
+Bento Grid
+
+↓
+
+Mobile :
+
+Stack interactif
+
+--------------------------------
+
+Desktop :
+
+Timeline horizontale
+
+↓
+
+Mobile :
+
+Timeline verticale
+
+--------------------------------
+
+Desktop :
+
+4 statistiques
+
+↓
+
+Mobile :
+
+Compteur animé
+
+--------------------------------
+
+Desktop :
+
+Sidebar
+
+↓
+
+Mobile :
+
+Bottom Navigation
+
+--------------------------------
+
+Desktop :
+
+Tableau
+
+↓
+
+Mobile :
+
+Cards
+
+--------------------------------
+
+Desktop :
+
+Formulaire complet
+
+↓
+
+Mobile :
+
+Wizard
+
+=========================================
+ESPACEMENT
+=========================================
+
+Les espaces doivent évoluer.
+
+Desktop :
+
+padding généreux
+
+Tablet :
+
+padding moyen
+
+Mobile :
+
+padding compact
+
+Le vide ne doit jamais donner une sensation de perte d'espace.
+
+=========================================
+TYPOGRAPHIE
+=========================================
+
+Adapter toute la hiérarchie.
+
+Desktop :
+
+H1 très grand
+
+Mobile :
+
+Titre plus court
+
+Police plus compacte
+
+Paragraphes raccourcis
+
+Limiter les lignes longues.
+
+=========================================
+IMAGES
+=========================================
+
+Les images ne doivent jamais simplement être réduites.
+
+Adapter leur importance.
+
+Desktop :
+
+image complète
+
+Tablet :
+
+recadrage
+
+Mobile :
+
+focus sur le sujet principal
+
+Les images décoratives peuvent disparaître.
+
+=========================================
+ANIMATIONS
+=========================================
+
+Les animations changent.
+
+Desktop :
+
+Fade + Scale + Translate
+
+Mobile :
+
+Fade discret
+
+Interactions tactiles
+
+Swipe
+
+Momentum
+
+Aucune animation lourde.
+
+=========================================
+PERFORMANCES
+=========================================
+
+Sur mobile :
+
+Supprimer :
+
+• grosses illustrations
+
+• gros SVG
+
+• animations inutiles
+
+• effets GPU lourds
+
+Charger uniquement ce qui est utile.
+
+=========================================
+GESTES TACTILES
+=========================================
+
+Penser mobile-first.
+
+Autoriser :
+
+• swipe
+
+• drag
+
+• pu
